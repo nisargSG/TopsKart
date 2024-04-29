@@ -12,7 +12,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST" && isset($_POST["i1"]) && isset($_POST["i2
     $db="topskart";
     $user="root";
     $password="";
-    
+
     $dbConn = new mysqli($host,$user, $password,$db);
 
     $email = $_POST["i1"];
